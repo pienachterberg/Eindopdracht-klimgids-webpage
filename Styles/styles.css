@@ -1,0 +1,70 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;}
+
+h1 {
+    color: aliceblue;
+    background-color: rgb(45, 26, 12);
+    font-size: 40px;
+    font-weight: 800;
+    border: 1px snow;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;}
+
+p {
+    color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+    
+.footer-color {
+    color: aliceblue;}
+.header-color-buttons {
+    color: aliceblue;}
+
+header {
+    background-color: azure;}
+
+footer {
+    background-color: rgb(45, 26, 12);
+    padding: 20px;}
+
+nav { 
+    background-color: aliceblue}
+
+nav ul {
+    background-color: lightgray;
+    display: flex; /*zorgt dat alles naast elkaar staat*/
+    padding: 20px;}
+
+nav ul li {
+    background-color: rgb(45, 26, 12) ;
+    margin-left: 200px;}
+
+section {
+    background: lightgray;
+    border: 10px black;
+    display: flex;
+    justify-content: space-between;
+}
+section div {
+    padding: 20px;
+    width: 60%;
+}
+
+.links {
+    background: lightgray;
+}
+
+.rechts {
+    background: white;
+}
+
+img {
+    width: 100%;
+}
