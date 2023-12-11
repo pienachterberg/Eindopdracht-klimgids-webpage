@@ -1,7 +1,10 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
 
 h1 {
     color: aliceblue;
@@ -11,40 +14,69 @@ h1 {
     border: 1px snow;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 50px;}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;}
+}
 
 p {
     color: black;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
     
-.footer-color {
-    color: aliceblue;}
-.header-color-buttons {
-    color: aliceblue;}
-
 header {
-    background-color: azure;}
+    background-color: azure;
+}
 
 footer {
     background-color: rgb(45, 26, 12);
-    padding: 20px;}
+    padding: 1px;
+    border: 5px;
+}
 
+footer p {
+    color: white;
+    margin-bottom: 0,1px;
+    padding: 0px;
+}
+    
 nav { 
-    background-color: aliceblue}
+    background-color: aliceblue
+}
 
+nav svg{
+    width: 1%;
+}
 nav ul {
     background-color: lightgray;
     display: flex; /*zorgt dat alles naast elkaar staat*/
-    padding: 20px;}
+    padding: 20px;
+    list-style-type: none;
+
+}
 
 nav ul li {
-    background-color: rgb(45, 26, 12) ;
-    margin-left: 200px;}
+    background-color: rgb(45, 26, 12);
+    margin-left: 200px;
+    align-content: center;
+    border: 5px solid rgb(45, 26, 12);
+    border-radius: 0.4em;
+    padding: 0.75em;
+    transition: all 800ms ease;
+}
+
+nav ul li:hover {
+    background: rgb(142, 113, 94);
+    color: white;
+    border-color:  rgb(142, 113, 94);
+    border-bottom-color:  rgb(93, 74, 59)
+}
+
+nav a {
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+}
 
 section {
     background: lightgray;
@@ -52,19 +84,29 @@ section {
     display: flex;
     justify-content: space-between;
 }
+
 section div {
     padding: 20px;
     width: 60%;
 }
 
-.links {
+.donker {
     background: lightgray;
 }
 
-.rechts {
+.licht {
     background: white;
 }
 
 img {
     width: 100%;
+}
+
+.mainfoto {
+    border: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
 }
