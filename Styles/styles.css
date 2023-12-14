@@ -39,7 +39,7 @@ footer {
 
 footer p {
     color: white;
-    margin-bottom: 0,1px;
+    margin-bottom: 0.1px;
     padding: 0px;
 }
     
@@ -113,6 +113,10 @@ div:hover {
 
 .licht {
     background: white;
+}
+.logo-instijl {
+    background-color: lightgray;
+    border: 0px;
 }
 
 img {
