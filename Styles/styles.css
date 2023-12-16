@@ -21,43 +21,21 @@ h1:hover {
     font-size: 50px;
 }
 
-.animatie {
-    height: 100px;
-    width: 140px;
-    animation-name: mountainmove;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes mountainmove {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 h2 {
     margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 p {
     color: black;
     padding: 8px;
     margin-bottom: 5px;
-}
-
-footer {
-    background-color: rgb(45, 26, 12);
-    padding: 1px;
-    border: 5px;
-}
-
-footer p {
-    color: white;
-    margin-bottom: 0.1px;
-    padding: 0px;
+    display: flex;
+    justify-content: center;
 }
     
 nav {
@@ -65,7 +43,7 @@ nav {
     justify-content: center;
 }
 
-nav img{
+nav img {
     width: 80px;
     height: 80px;
     padding: 0px;
@@ -81,7 +59,6 @@ nav ul {
     align-items: center;
     padding: 20px;
     list-style-type: none;
-
 }
 
 nav ul li {
@@ -108,11 +85,33 @@ ul {
     list-style-type: none;
 }
 
+footer {
+    background-color: rgb(45, 26, 12);
+    padding: 2px;
+    border: 5px;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 0.1px;
+    padding: 0px;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+.mainfoto {
+    border: 20px;
+    padding: 20px;
+}
+
 section {
     background: lightgray;
     border: 10px black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 section div {
@@ -120,6 +119,7 @@ section div {
     width: 60%;
     transition: all 2s ease;
 }
+
 div:hover {
     background: rgb(166, 164, 164);
 }
@@ -131,16 +131,30 @@ div:hover {
 .licht {
     background: white;
 }
+
+.animatie {
+    height: 100px;
+    width: 150px;
+    animation-name: mountainmove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mountainmove {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .logo-instijl {
     background-color: lightgray;
     border: 0px;
 }
 
-img {
-    width: 100%;
-}
-
-.mainfoto {
-    border: 20px;
-    padding: 20px;
+.socials {
+    height: 100px;
+    width: 100px;
 }
